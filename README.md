@@ -5,7 +5,8 @@
 | :exclamation: Important Note            |
 |-----------------------------------------|
 
-## Please fill in your project documentation in this README.md file 
+## TinyRocket / Skywater
+This project features a TinyRocket 32-bit RISC-V core generated in Chipyard and custom OpenRAM SRAMs. This project was hardened using SiliconCompiler with the SKY130B PDK and the build setup can be seen in the 'sc-tinyrocket' directory.
 
 Refer to [README](docs/source/quickstart.rst) for a quick start of how to use caravel_user_project
 
