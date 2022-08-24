@@ -34,8 +34,8 @@ TOP_H = 3520
 MARGIN_W = 9.66
 MARGIN_H = 8.16
 
-# Path to 'caravel' repository root.
-CARAVEL_ROOT = '/home/ubuntu/caravel'
+# Path to 'caravel' (not caravel-lite) repository root.
+CARAVEL_ROOT = '/path/to/caravel'
 
 def configure_chip(design):
     # Minimal Chip object construction.
