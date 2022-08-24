@@ -38,7 +38,7 @@ def main():
     # subprocess.run(['cp', core_name + '.def', CARAVEL_USER_PROJECT + '/def/' + core_name + '.def'])
     subprocess.run(['cp', 'build/user_project_wrapper/' + job_name + '/export/0/inputs/user_project_wrapper.def', CARAVEL_USER_PROJECT + '/def/user_project_wrapper.def'])
 
-    # DEF
+    # SDC
     subprocess.run(['rm', '-r', CARAVEL_USER_PROJECT + '/sdc'])
     subprocess.run(['mkdir', CARAVEL_USER_PROJECT + '/sdc'])
     # subprocess.run(['cp', 'build/' + core_name + '/' + job_name + '/export/0/inputs/' + core_name + '.sdc', CARAVEL_USER_PROJECT + '/sdc/' + core_name + '.sdc'])
